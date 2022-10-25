@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src", // forder z którego bierzemy plik do kompilacji
+    "outDir": "./dist", // folder docelowy
+    "target": "ES2015", // wersja JS do której ma byc skompilowany kod
+    "module": "ES2015"
+  }
+}
+// do ukatywnienia kodu, po zapisanu, wpisujemy w terminal `tsc`
+
+/*
+w pliku `package.json` dajemy
+"scripts": {
+    "compile": "tsc --watch" 
+  }  
+  powoduje to wywołanie funkcji `tsc` po wywołaniu `npm run compile`
+  dodanie flagi `--watch` pozwala na śledzenie zmian przez co kompilowane będą automatycznie po zapisaniu
+
+*/
